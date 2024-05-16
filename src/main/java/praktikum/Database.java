@@ -1,7 +1,7 @@
 package praktikum;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Класс с методами по работе с базой данных.
@@ -32,5 +32,4 @@ public class Database {
     public List<Ingredient> availableIngredients() {
         return ingredients;
     }
-
 }
